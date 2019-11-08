@@ -199,11 +199,10 @@ hr{
 	align-items: center;
 	justify-content: center;
 }
-footer{
+#footer{
 	width:100%;
 	display: flex;
 	align-items: center;
-	justify-content: center;
 	height: 35px;
 
 }
@@ -225,8 +224,15 @@ li{
 @media only screen and (max-width:768px){
 body{
 	background-color: aqua;
+
 }
 .classes{
 	flex-direction: column;
 }
+}
+.middle-img-float{
+	display: flex;
+	border-radius: 15px;
+	width: 500px;
+	margin: 0 0 0 100px;
 }
