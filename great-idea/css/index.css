@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/* Index */
 #wrapper{
 	width: 800px;
 	margin: 0 auto;
@@ -154,4 +155,78 @@ hr{
 	display:flex;
 	justify-content: center;
 	font-weight: 600;
+	align-items: center;
+}
+/* services*/
+.classes{
+	display:flex;
+	justify-content: space-between;
+	margin: 20px 0;
+	letter-spacing: 1px;
+}
+.classes div{
+	width: 48%;
+	background:#EEE;
+	padding: 10px;
+	border:2px black solid;
+}
+.learn{
+	width:150px;
+	background-color: snow;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	color: black;
+	padding: 12px 28px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	margin:10px 0px;
+	
+	letter-spacing: 1px;
+}
+.classes{
+	display:flex;
+}
+.classes{
+	display:flex;
+}
+.services-info-img{
+	float:right;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+footer{
+	width:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+
+}
+.bottom-selection{
+	display: flex;
+	justify-content: space-between;
+	font-size: 10px;
+}
+.bottom-section div{
+	width: 50%;
+}
+ul{
+	list-style-type: square;
+	padding:5px;
+}
+li{
+	padding: 5px;
+}
+@media only screen and (max-width:768px){
+body{
+	background-color: aqua;
+}
+.classes{
+	flex-direction: column;
+}
 }
